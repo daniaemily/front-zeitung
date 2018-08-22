@@ -1,28 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <h3>Extra Extra Read all about it</h3>
+    <hr>
+    <router-link to="/">Home</router-link>
+    <router-link to="/top_news">Top News</router-link>
+    <hr>
+    <router-view></router-view>
+
+    <Category />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Category from './components/Category';
 
 export default {
-  name: 'app',
   components: {
-    HelloWorld
+    Category
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
