@@ -2,8 +2,8 @@
   <div>
     <h3>Extra Extra Read all about it</h3>
     <hr>
-    <router-link to="/">Home</router-link>
-    <router-link to="/top_news">Top News</router-link>
+    <router-link v-bind:to="'/'">Home</router-link>
+    <router-link v-bind:to="'/top_news'">Top News</router-link>
     <hr>
     <router-view></router-view>
 
@@ -12,11 +12,12 @@
 </template>
 
 <script>
-import Category from './components/Category';
+// import Category from './components/Category';
+import Home from './components/Home';
 
 export default {
   components: {
-    Category
+    Home
   }
 }
 </script>
