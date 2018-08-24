@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import App from './App.vue';
 import VueRouter from 'vue-router';
-import Category from './components/Category';
+import TopNews from './components/TopNews';
 import Home from './components/Home';
 
 Vue.use(VueRouter);
@@ -9,8 +9,7 @@ Vue.use(VueRouter);
 Vue.config.productionTip = false
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/top_news', component: Category }
+  { name: 'Top News', path: '/', component: TopNews }
 ];
 
 const router = new VueRouter({
