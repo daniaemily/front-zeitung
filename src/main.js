@@ -1,10 +1,12 @@
 import Vue from 'vue';
 import App from './App.vue';
 import VueRouter from 'vue-router';
-import TopNews from './components/TopNews';
-import Home from './components/Home';
+import TopNews from './components/TopNews.vue';
+import Home from './components/Home.vue';
+import NavBar from './components/NavBar.vue';
 
 Vue.use(VueRouter);
+// Vue.component('NavBar', NavBar);
 
 Vue.config.productionTip = false
 

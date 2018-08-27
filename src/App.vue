@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <h3>Extra Extra Read all about it</h3>
+  <div class="front-page">
     <router-view></router-view>
 
   </div>
@@ -12,11 +11,20 @@ import Home from './components/Home';
 
 export default {
   components: {
-    Home
+    Home,
   }
 }
 </script>
 
 <style scoped>
+  #app {
+    display: grid;
+  }
+
+  .front-page {
+    background-color: aliceblue;
+    text-align: center;
+  }
+
 
 </style>
