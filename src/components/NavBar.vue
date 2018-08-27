@@ -45,15 +45,21 @@
 .category-nav button {
   width: 100%;
   color: #334152;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   text-align: center;
   border: none;
+/*  margin-top: -24px;*/
 }
 
 .category-nav button:hover {
   background-color: red;
   color:white;
+}
+
+.nav-header {
+  position: sticky;
+  top: -1px;
 }
 
 </style>

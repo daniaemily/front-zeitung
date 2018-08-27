@@ -8,6 +8,7 @@
 
     <div v-if="!info">
       <p>Cover Image</p>
+      <img src="/images/rose-typewriter.jpg" alt="typewriter"/>
     </div>
 
     <Article
@@ -47,6 +48,11 @@
 </script>
 
 <style >
-
+.category-nav h1 {
+  background-color: orange;
+  padding: 2%;
+  margin-top: -8px;
+  margin-bottom: -16px;
+}
 
 </style>
