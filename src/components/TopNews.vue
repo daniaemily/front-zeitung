@@ -1,14 +1,18 @@
 <template>
   <div class="category-nav">
-    <h1>Top News Articles from Around the World</h1>
-
+    <h1>Glass News</h1>
+    <!-- <h1>Top News Articles from Around the World</h1> -->
     <NavBar class="navbar" @nav-changed="fetchArticles">
 
     </NavBar>
 
     <div v-if="!info">
-      <p>Cover Image</p>
-      <img src="/images/rose-typewriter.jpg" alt="typewriter"/>
+      <div id="glass">
+        <img src="../images/glass1.jpg" alt="glass"/>
+        <div class="center-title">
+         <!--  <h3>Breaking and Transparent Worldwide Articles</h3> -->
+        </div>
+      </div>
     </div>
 
     <Article
@@ -49,10 +53,28 @@
 
 <style >
 .category-nav h1 {
-  background-color: orange;
+  color: #87E5DA;
   padding: 2%;
   margin-top: -8px;
   margin-bottom: -16px;
+  border-bottom: 2px solid #334152;
+/*  border-bottom: 2px solid yellow;*/
+}
+
+#glass img {
+  background-size: cover;
+  width: 100%;
+  margin-top: -16.5px;
+  height: 80vh;
+}
+
+.center-title {
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  top: 70%;
+  left: 35%;
+  color: yellow;
+  font-size: 40px;
 }
 
 </style>

@@ -1,12 +1,13 @@
 <template>
 
   <div class="article-card">
+    <a :href="article.url" target="_blank">
       <img class="article-pic":src="article.urlToImage"></img>
       <div class="article-content">
         <h2>{{ article.title }}</h2>
         <h3>{{ article.source.name }}</h3>
-        <a :href="article.url" target="_blank"> Click me now!</a>
       </div>
+    </a>
   </div>
 </template>
 
@@ -26,12 +27,14 @@
 
 .article-card {
   display: inline-block;
-  align-items: center;
-  flex-wrap: wrap;
   width: 350px;
-  border: solid;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 15px;
+  justify-content: space-around;
+}
 
+a {
+  text-decoration: none;
 }
 
 .article-pic {
@@ -40,9 +43,23 @@
   border-radius: 2px;
 }
 
-.article-content h2{
-  min-height: 72px;
-  font-size: 21px;
+.article-content h3 {
+  text-align: right;
+  font-size: 15px;
+}
+
+.article-content h2 {
+  min-height: 81px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: none;
+}
+
+.article-content.article-content h2, h3 {
+/*  color: #334152;*/
+  color: #121212;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 </style>

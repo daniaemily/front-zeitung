@@ -39,22 +39,22 @@
   display: flex;
   justify-content: space-evenly;
   padding-left: 0px;
-  background-color: yellow;
 }
 
 .category-nav button {
   width: 100%;
   color: #334152;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  font-size: 14px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   text-align: center;
   border: none;
-/*  margin-top: -24px;*/
 }
 
 .category-nav button:hover {
-  background-color: red;
-  color:white;
+/*  background-color: #87E5DA;*/
+  background-color: rgb(247, 247, 247);
+/*  color:white;*/
 }
 
 .nav-header {

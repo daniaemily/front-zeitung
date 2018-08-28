@@ -16,14 +16,14 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
   #app {
     display: grid;
   }
 
   .front-page {
-    background-color: aliceblue;
     text-align: center;
+    font-family: montserrat,sans-serif;
   }
 
 
