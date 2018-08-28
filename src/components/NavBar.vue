@@ -6,11 +6,6 @@
         v-for="(articleCategory, categoryId) in articleCategories">
         <p>{{ articleCategory.label }}</p>
       </button>
-     <!--  <button @click="handleClick('business')">Business</button>
-      <button @click="handleClick('popCulture')">Pop Culture</button>
-      <button @click="handleClick('tech')">Technology</button>
-      <button @click="handleClick('science')">Science</button>
-      <button @click="handleClick('sports')">Sports</button> -->
     </ul>
   </div>
 
@@ -50,7 +45,6 @@
   padding-bottom: 3px;
   text-align: center;
   border: none;
-/*  margin-top: -24px;*/
 }
 
 .category-nav button:hover {
@@ -81,7 +75,5 @@
 .animatedBorder:hover:after {
   right: 0;
 }
-
-
 
 </style>
