@@ -1,6 +1,6 @@
 <template>
 
-  <div class="article-card">
+  <div class="article-card animated rollIn delay 5s">
     <a :href="article.url" target="_blank">
       <img class="article-pic":src="article.urlToImage"></img>
       <div class="article-content">

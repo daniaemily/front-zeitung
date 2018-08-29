@@ -6,6 +6,7 @@ set -e
 npm run build
 
 cd dist
+echo 'Deployed: '`date '+%m/%d/%Y %H:%M:%S' `> version.html
 
 git init
 git add -A
