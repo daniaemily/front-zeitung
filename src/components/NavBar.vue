@@ -30,6 +30,13 @@
 </script>
 
 <style scoped>
+
+.nav-header {
+  position: sticky;
+  top: -1px;
+  z-index: 103;
+}
+
 .category-nav ul {
   display: flex;
   justify-content: space-evenly;
@@ -39,23 +46,23 @@
 
 .category-nav button {
   width: 100%;
+  /*color: white;*/
   color: #334152;
   font-size: 14px;
   padding-top: 3px;
   padding-bottom: 3px;
   text-align: center;
   border: none;
+  background-color: white;
 }
 
 .category-nav button:hover {
 /*  background-color: #87E5DA;*/
   background-color: rgb(247, 247, 247);
+  color: #334152;
+  /*background-color: white;*/
+  cursor: pointer;
 /*  color:white;*/
-}
-
-.nav-header {
-  position: sticky;
-  top: -1px;
 }
 
 .animatedBorder {
@@ -65,11 +72,13 @@
 .animatedBorder:after {
   content: '';
   position: absolute;
-  border-bottom: 5px solid #87E5DA;;
+  /*border-bottom: 5px solid orange;*/
+/*  border-bottom: 5px solid #87E5DA;*/
+  border-bottom: 5px solid #87e5da;
   bottom: 0;
   left: 0;
   right: 100%;
-  transition: all 500ms;
+  transition: all 400ms;
 }
 
 .animatedBorder:hover:after {

@@ -53,12 +53,13 @@
 
 <style >
 .category-nav h1 {
-  color: #87E5DA;
+  color: #87e5da;
+/*  color: #87E5DA;*/
   padding: 2%;
   margin-top: -8px;
   margin-bottom: -16px;
   border-bottom: 2px solid #e9ebee;
-/*  border-bottom: 2px solid #334152;*/
+ /* border-bottom: 2px solid #334152;*/
 }
 
 #glass img {
@@ -67,6 +68,7 @@
   margin-top: -16.5px;
   height: 80vh;
 }
+
 
 .center-title {
   position: absolute;
