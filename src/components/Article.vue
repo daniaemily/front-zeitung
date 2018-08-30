@@ -1,11 +1,14 @@
 <template>
 
-  <div class="article-card animated rollIn delay 5s">
+  <div class="article-card animated pulse slow-3s">
     <a :href="article.url" target="_blank">
       <img class="article-pic":src="article.urlToImage"></img>
       <div class="article-content">
         <h2>{{ article.title }}</h2>
-        <h3>{{ article.source.name }}</h3>
+        <h4>
+          <span class="spec-details">{{ moment(article.publishedAt).fromNow() }}</span>
+          <span>{{ article.source.name }}</span>
+        </h4>
       </div>
     </a>
   </div>
@@ -13,10 +16,16 @@
 
 
 <script>
+  var moment = require('moment');
   export default {
     name: 'Article',
     props: {
       article: { type: Object, required: true }
+    },
+    data() {
+      return {
+        moment:moment,
+      }
     }
   }
 
@@ -33,6 +42,11 @@
   justify-content: space-around;
 }
 
+.article-card animated {
+  position: relative;
+  z-index: -1;
+}
+
 a {
   text-decoration: none;
 }
@@ -40,25 +54,29 @@ a {
 .article-pic {
   height: 200px;
   width: 100%;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
-.article-content h3 {
+.article-content h4 {
   text-align: right;
   font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: lighter;
+  color: #c4c4c4;
 }
 
 .article-content h2 {
-  min-height: 81px;
+  min-height: 63px;
   font-size: 18px;
   font-weight: 600;
   text-align: left;
   text-decoration: none;
 }
 
-.article-content.article-content h2, h3 {
-/*  color: #334152;*/
-  color: #121212;
+.article-content.article-content h2, h4 {
+  color: #334152;
+/*  color: #121212;*/
   font-family: 'Libre Franklin', sans-serif;
 }
 

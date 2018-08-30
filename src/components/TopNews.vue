@@ -8,7 +8,7 @@
 
     <div v-if="!info">
       <div id="glass">
-        <img src="../images/glass1.jpg" alt="glass"/>
+        <img src="../images/glass3.jpg" alt="glass"/>
         <div class="center-title">
          <!--  <h3>Breaking and Transparent Worldwide Articles</h3> -->
         </div>
@@ -57,8 +57,8 @@
   padding: 2%;
   margin-top: -8px;
   margin-bottom: -16px;
-  border-bottom: 2px solid #334152;
-/*  border-bottom: 2px solid yellow;*/
+  border-bottom: 2px solid #e9ebee;
+/*  border-bottom: 2px solid #334152;*/
 }
 
 #glass img {
