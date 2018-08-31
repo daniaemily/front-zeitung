@@ -63,7 +63,8 @@ a {
   display: flex;
   justify-content: space-between;
   font-weight: lighter;
-  color: #c4c4c4;
+/*  color: #c4c4c4;*/
+  color: rgba(0,0,0,.54);
 }
 
 .article-content h2 {
@@ -75,8 +76,8 @@ a {
 }
 
 .article-content.article-content h2, h4 {
-  color: #334152;
-/*  color: #121212;*/
+/*  color: #334152;*/
+  color: #121212;
   font-family: 'Libre Franklin', sans-serif;
 }
 

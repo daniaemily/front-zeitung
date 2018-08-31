@@ -35,6 +35,7 @@
   position: sticky;
   top: -1px;
   z-index: 103;
+  width: 1050;
 }
 
 .category-nav ul {
@@ -67,6 +68,10 @@
 
 .animatedBorder {
   position: relative;
+}
+
+.animatedBorder.highlight {
+  background: orange;
 }
 
 .animatedBorder:after {
