@@ -8,7 +8,6 @@
       </button>
     </ul>
   </div>
-
 </template>
 
 <script>

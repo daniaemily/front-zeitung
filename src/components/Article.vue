@@ -1,5 +1,4 @@
 <template>
-
   <div class="article-card animated pulse slow-3s">
     <a :href="article.url" target="_blank">
       <img class="article-pic":src="article.urlToImage"></img>

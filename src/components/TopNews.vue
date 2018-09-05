@@ -1,6 +1,6 @@
 <template>
   <div class="category-nav">
-    <h1>Glass News</h1>
+    <h1>GlassNews</h1>
     <!-- <h1>Top News Articles from Around the World</h1> -->
     <NavBar class="navbar" @nav-changed="fetchArticles">
 
@@ -8,7 +8,10 @@
 
     <div v-if="!info">
       <div id="glass">
-        <img src="../images/glass3.jpg" alt="glass"/>
+        <img src="../images/glass10.jpg" alt="glass"/>
+        <div class="testing1">
+          Breaking <br> & <br>Transparent <br> News <br>
+        </div>
         <div class="center-title">
          <!--  <h3>Breaking and Transparent Worldwide Articles</h3> -->
         </div>
@@ -66,7 +69,7 @@
   background-size: cover;
   width: 100%;
   margin-top: -16.5px;
-  height: 80vh;
+  height: 65vh;
 }
 
 
@@ -77,6 +80,22 @@
   left: 35%;
   color: yellow;
   font-size: 40px;
+}
+
+.header-words {
+  color: red;
+}
+
+.testing1 {
+  position: absolute;
+  color: white;
+  margin: 10px;
+  padding: 30px;
+  background-color: #87e5da;
+  text-align: right;
+  margin-top: -163px;
+  font-size: 39px;
+  margin-left: 69%;
 }
 
 </style>
