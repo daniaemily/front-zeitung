@@ -7,12 +7,8 @@ const articleCategories = {
     label: 'Business',
     path: 'business'
   },
-  popCulture: {
-    label: 'Pop Culture',
-    path: 'entertainment'
-  },
   tech: {
-    label: 'Technology',
+    label: 'Tech',
     path: 'technology'
   },
   science: {
@@ -22,6 +18,10 @@ const articleCategories = {
   sports: {
     label: 'Sports',
     path: 'sports'
+  },
+  popCulture: {
+    label: 'Pop Culture',
+    path: 'entertainment'
   }
 }
 

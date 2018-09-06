@@ -35,6 +35,8 @@
   top: -1px;
   z-index: 103;
   width: 1050;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .category-nav ul {

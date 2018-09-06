@@ -10,7 +10,7 @@
       <div id="glass">
         <img src="../images/glass10.jpg" alt="glass"/>
         <div class="testing1">
-          Breaking <br> & <br>Transparent <br> News <br>
+          Breaking <br> & <br>Transparent<br>News<br>
         </div>
         <div class="center-title">
          <!--  <h3>Breaking and Transparent Worldwide Articles</h3> -->
@@ -55,6 +55,7 @@
 </script>
 
 <style >
+
 .category-nav h1 {
   color: #3d46ff;
 /*  color: #87E5DA;*/

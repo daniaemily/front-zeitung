@@ -39,6 +39,10 @@
   flex-wrap: wrap;
   margin: 15px;
   justify-content: space-around;
+  border: 1px;
+  box-shadow: 0px 5px 40px rgba(41,30,226,0.3);
+  margin-bottom: 2%;
+  border-radius: 3px;
 }
 
 .article-card animated {
@@ -52,8 +56,10 @@ a {
 
 .article-pic {
   height: 200px;
-  width: 100%;
-  border-radius: 5px;
+/*  width: 100%;*/
+  width: 98%;
+  border-radius: 1px;
+  margin-top: 12px;
 }
 
 .article-content h4 {
@@ -78,6 +84,11 @@ a {
 /*  color: #334152;*/
   color: #121212;
   font-family: 'Libre Franklin', sans-serif;
+/*  padding: 2%;*/
+  padding-right: 4px;
+  padding-left: 4px;
+
+
 }
 
 </style>
