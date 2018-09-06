@@ -43,6 +43,7 @@
   box-shadow: 0px 5px 40px rgba(41,30,226,0.3);
   margin-bottom: 2%;
   border-radius: 3px;
+  border-style: white;
 }
 
 .article-card animated {
@@ -57,9 +58,9 @@ a {
 .article-pic {
   height: 200px;
 /*  width: 100%;*/
-  width: 98%;
-  border-radius: 1px;
-  margin-top: 12px;
+  width: 100%;
+  border-radius: 2px;
+  margin-top: 0px;
 }
 
 .article-content h4 {
