@@ -78,7 +78,7 @@
   position: absolute;
   /*border-bottom: 5px solid orange;*/
 /*  border-bottom: 5px solid #87E5DA;*/
-  border-bottom: 5px solid #87e5da;
+  border-bottom: 5px solid #3d46ff;
   bottom: 0;
   left: 0;
   right: 100%;

@@ -56,7 +56,7 @@
 
 <style >
 .category-nav h1 {
-  color: #87e5da;
+  color: #3d46ff;
 /*  color: #87E5DA;*/
   padding: 2%;
   margin-top: -8px;
@@ -91,7 +91,7 @@
   color: white;
   margin: 10px;
   padding: 30px;
-  background-color: #87e5da;
+  background-color: #3d46ff;
   text-align: right;
   margin-top: -163px;
   font-size: 39px;
