@@ -51,6 +51,11 @@
   /*background-color: white;*/
 }
 
+.article-card:hover {
+  background-color: #f7f7f7;
+  transition: all .7s;
+}
+
 .article-card animated {
   position: relative;
   z-index: -1;
@@ -61,12 +66,18 @@ a {
 }
 
 .article-pic {
+  overflow: hidden;
   height: 200px;
-/*  width: 100%;*/
   width: 100%;
   border-radius: 2px;
   margin-top: 0px;
 }
+
+/*.article-pic:hover {
+  width: 108%;
+  margin: 0 0 0 -10%;
+  transition: all .3s;
+}*/
 
 .article-content h4 {
   text-align: right;
@@ -93,8 +104,6 @@ a {
 /*  padding: 2%;*/
   padding-right: 4px;
   padding-left: 4px;
-
-
 }
 
 </style>

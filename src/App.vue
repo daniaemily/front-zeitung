@@ -27,4 +27,10 @@ export default {
 /*    background-color: #f7f7f7;*/
   }
 
+/*  @media screen and (max-width: 960px) {
+    .parent {width: 100%; margin: 20px 0px}
+        .wrapper {padding: 20px 20px;}
+}*/
+
+
 </style>
