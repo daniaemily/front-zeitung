@@ -1,6 +1,7 @@
 <template>
   <div class="nav-header">
     <ul>
+      <h1>GlassNews</h1>
       <button class="animatedBorder"
         @click="handleClick(categoryId)"
         v-for="(articleCategory, categoryId) in articleCategories">
@@ -34,8 +35,10 @@
   position: sticky;
   top: -1px;
   z-index: 103;
-  width: 1050;
-  margin-left: 2px;
+  width: 100%;
+/*  margin-left: 4.1%;
+  margin-right: 3.1%;*/
+/*  margin-left: 2px;*/
   margin-right: 2px;
 }
 

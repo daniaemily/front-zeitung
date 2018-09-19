@@ -41,11 +41,14 @@
   justify-content: space-around;
   border: 1px;
   padding: 10px;
-  box-shadow: 5px 10px rgb(247, 247, 247);
+  box-shadow: 5px 10px #f7f7f7;
+  /*box-shadow: 5px 10px rgb(247, 247, 247);*/
   /*box-shadow: 0px 5px 40px rgba(41,30,226,0.3);*/
   margin-bottom: 2%;
   border-radius: 3px;
   border-style: white;
+/*  background-color: #f7f7f7;*/
+  /*background-color: white;*/
 }
 
 .article-card animated {

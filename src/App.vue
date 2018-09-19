@@ -24,7 +24,7 @@ export default {
   .front-page {
     text-align: center;
     font-family: montserrat,sans-serif;
+/*    background-color: #f7f7f7;*/
   }
-
 
 </style>

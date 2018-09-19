@@ -1,6 +1,5 @@
 <template>
   <div class="category-nav">
-    <h1>GlassNews</h1>
     <!-- <h1>Top News Articles from Around the World</h1> -->
     <NavBar class="navbar" @nav-changed="fetchArticles">
 
@@ -8,10 +7,10 @@
 
     <div v-if="!info">
       <div id="glass">
-        <img src="../images/glass10.jpg" alt="glass"/>
         <div class="testing1">
-          Breaking <br> & <br>Transparent<br>News<br>
+          Breaking & Transparent News
         </div>
+        <img src="../images/sven.jpg" alt="glass"/>
         <div class="center-title">
          <!--  <h3>Breaking and Transparent Worldwide Articles</h3> -->
         </div>
@@ -58,17 +57,21 @@
 
 .category-nav h1 {
   color: #3d46ff;
+  margin: 0%;
 /*  color: #87E5DA;*/
-  padding: 2%;
-  margin-top: -8px;
+  padding-right: 2%;
+  padding-top: 5px;
+  background-color: white;
+  /*background-color: #f7f7f7;*/
+  /*margin-top: -8px;
   margin-bottom: -16px;
-  border-bottom: 2px solid #e9ebee;
+  border-bottom: 2px solid #e9ebee;*/
  /* border-bottom: 2px solid #334152;*/
 }
 
 #glass img {
   background-size: cover;
-  width: 100%;
+  width: 99.9%;
   margin-top: -16.5px;
   height: 65vh;
 }
@@ -88,15 +91,17 @@
 }
 
 .testing1 {
-  position: absolute;
-  color: white;
+  display: flex;
+  justify-content: center;
+/*  position: absolute;*/
+  color:  #334152;
   margin: 10px;
-  padding: 30px;
-  background-color: #3d46ff;
-  text-align: right;
-  margin-top: -163px;
-  font-size: 39px;
-  margin-left: 69%;
+  padding: 52px;
+  /*background-color: #3d46ff;*/
+  text-align: center;
+/*  margin-top: -130px;*/
+  font-size: 42px;
+/*  margin-left: 69%;*/
 }
 
 </style>
